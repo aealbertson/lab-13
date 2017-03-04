@@ -2,6 +2,7 @@ h1 {
   text-align: center;
   margin: 5%;
   padding: 5px;
+  font-family: 'Hind', sans-serif;
 }
 
 li {
@@ -9,10 +10,36 @@ li {
 }
 
 .post {
-  border: 3px solid black;
+
   margin: 5px;
+  padding: 5px;
+  background-color: #aee5e1;
+  color: black;
+  width: 100%;
+  align-items: center;
+  border: 15px solid #f9f9f9;
+
 }
 
-img {
-  float: right;
+div img {
+  padding:10px;
+  max-width: 100%;
+  margin: auto;
+  position: relative;
+  vertical-align: middle;
+}
+
+h2{
+  font-family: 'Hind', sans-serif;
+
+}
+
+p {
+    font-family: 'Hind', sans-serif;
+    font-size: 20px;
+    margin-left: 5%;
+
+  }
+body {
+  background-color: #989ba0;
 }

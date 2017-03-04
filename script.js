@@ -1,26 +1,3 @@
-// $(document).ready(function(){
-//   $.get("https://www.reddit.com/r/aww/.json",
-//
-//   function(goodness){
-//      var redditArray = goodness.data.children;
-//      for(var i=0; i<redditArray.length; i++){
-//        var thumbnail = redditArray[i].data.thumbnail;
-//        var title = redditArray[i].data.title;
-//        var author = redditArray[i].data.author;
-//        var score = redditArray[i].data.score
-//        $('section').append(
-//          '<div><h2>' + title +
-//          '</h2>' + author + '' + score + '<img src="'
-//          + thumbnail +
-//          '"/> </div>');
-//
-//      }
-//     console.log(title);
-//     console.log(thumbnail);
-//     console.log(author);
-//
-//   });
-// });
 $(document).ready(function(){
   $.get("https://www.reddit.com/r/aww/.json",
 
@@ -35,13 +12,13 @@ $(document).ready(function(){
        $('section').append(
       '<a href="'
       + permalink +
-      '"><div class = "post row"><h2 class = "col-md-9 title">'
+      '"><div class="border"><div class = "post row"><h3 class = "col-md-9 title">'
        + title +
-       '</h2><p class = "col-md-9 row author">'
+       '</h3><div class = "col-md-3"><img src = "' + thumbnail + '"/></div><p class = "col-md-9 row author">'
        + author +
-       '</p><p class = "col-md-9 rpw score">'
+       '</p><p class = "col-md-9 row score">'
        + score +
-       '</p><div class = "col-md-3"><img src = "' + thumbnail + '"/></div></div></a>');
+       '</p></div></div></a>');
      }
     //  $("div.post").addClass("row");
     console.log(title);
