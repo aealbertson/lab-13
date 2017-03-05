@@ -12,13 +12,13 @@ $(document).ready(function(){
        $('section').append(
       '<a href="'
       + permalink +
-      '"><div class="border"><div class = "post row"><h3 class = "col-md-9 title">'
+      '"><div class="border"><div class = "post row"><div class="col-md-9"><h3>'
        + title +
-       '</h3><div class = "col-md-3"><img src = "' + thumbnail + '"/></div><p class = "col-md-9 row author">'
+       '</h3><p>'
        + author +
-       '</p><p class = "col-md-9 row score">'
+       '</p><p>'
        + score +
-       '</p></div></div></a>');
+       '</p></div><div class = "col-md-3"><div class="images"><img src = "' + thumbnail + '"/></div></div></div></a>');
      }
     //  $("div.post").addClass("row");
     console.log(title);

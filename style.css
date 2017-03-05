@@ -5,10 +5,6 @@ h1 {
   font-family: 'Hind', sans-serif;
 }
 
-li {
-  list-style: none;
-}
-
 .post {
 
   margin: 5px;
@@ -21,24 +17,23 @@ li {
 
 }
 
-div img {
-  padding:10px;
-  max-width: 100%;
-  margin: auto;
-  position: relative;
-  vertical-align: middle;
+.images{
+  text-align: center;
 }
 
-h2{
-  font-family: 'Hind', sans-serif;
+img {
+  padding:10px;
+  max-width: 100%;
+  text-align: center;
+}
 
+h3{
+  font-family: 'Hind', sans-serif;
 }
 
 p {
     font-family: 'Hind', sans-serif;
     font-size: 20px;
-    margin-left: 5%;
-
   }
 body {
   background-color: #989ba0;
