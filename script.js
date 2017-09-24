@@ -20,10 +20,8 @@ $(document).ready(function(){
        + score +
        '</p></div><div class = "col-md-3"><div class="images"><img src = "' + thumbnail + '"/></div></div></div></a>');
      }
-    //  $("div.post").addClass("row");
     console.log(title);
     console.log(thumbnail);
     console.log(author);
-
   });
 });
